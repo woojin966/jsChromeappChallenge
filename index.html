@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Momentuuuum</title>
+</head>
+<body>
+    <form id="login-form">
+        <input type="text" placeholder="what is your name?" required maxlength="15">
+        <!-- <button>login</button> -->
+        <!-- button을 인풋 섭밋으로 바꾼이유 : form submit으로 넘어갈때 새로고침 되지 않게 하려고 -->
+        <input type="submit" class="loginBtn">
+    </form>
+    <!-- <a href="www.daum.net" class="gotocourse">hey</a> -->
+    <h2 id="clock">00:00:00</h2>
+    <h1 class="hidden" id="greeting">Hello nico</h1>
+    <div id="quote">
+        <span></span>
+        <span></span>
+    </div>
+    <!-- <img id="bgImg" src="img/0.jpeg" alt=""> -->
+    <script src="js/greeting.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quote.js"></script>
+    <script src="js/background.js"></script>
+</body>
+</html>
